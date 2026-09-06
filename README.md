@@ -35,21 +35,23 @@ A single arcade front-end that aggregates **16 independently-built browser games
 <summary><b>🕹️ See all 16 games</b></summary>
 <br>
 
+Each game links to its **live, playable build** — click through and try it, no setup needed.
+
 | Game | Game | Game |
 |---|---|---|
-| [Snake](https://github.com/shoaibul0926/snake-game) | [Sudoku](https://github.com/shoaibul0926/Sudoku-game) | [Space Shooter](https://github.com/shoaibul0926/space-shooter-game) |
-| [Mario-Style Platformer](https://github.com/shoaibul0926/new-mario-game) | [Car Racing](https://github.com/shoaibul0926/car-racing-game) | [Flappy Bird Clone](https://github.com/shoaibul0926/flappybird-game) |
-| [Basketball Shooter](https://github.com/shoaibul0926/My-first-game) | [Brick Breaker](https://github.com/shoaibul0926/brick-breaker-game) | [Block Stacker](https://github.com/shoaibul0926/block-stacker-game) |
-| [Bubble Pop](https://github.com/shoaibul0926/bubble-pop-game) | [Whack-a-Mole](https://github.com/shoaibul0926/whack-a-mole-game) | [Simon Sequence](https://github.com/shoaibul0926/simon-sequence-game) |
-| [Road Crosser](https://github.com/shoaibul0926/road-crosser-game) | [Number Merge (2048-style)](https://github.com/shoaibul0926/number-merge-game) | [Bird Hunt](https://github.com/shoaibul0926/bird-hunt-game) |
-| [Fruit Slice](https://github.com/shoaibul0926/fruit-slice-game) | | |
+| [▶ Snake](https://shoaibul0926.github.io/snake-game/) ([code](https://github.com/shoaibul0926/snake-game)) | [▶ Sudoku](https://shoaibul0926.github.io/Sudoku-game/) ([code](https://github.com/shoaibul0926/Sudoku-game)) | [▶ Space Shooter](https://shoaibul0926.github.io/space-shooter-game/) ([code](https://github.com/shoaibul0926/space-shooter-game)) |
+| [▶ Mario-Style Platformer](https://shoaibul0926.github.io/new-mario-game/) ([code](https://github.com/shoaibul0926/new-mario-game)) | [▶ Car Racing](https://shoaibul0926.github.io/car-racing-game/) ([code](https://github.com/shoaibul0926/car-racing-game)) | [▶ Flappy Bird Clone](https://shoaibul0926.github.io/flappybird-game/) ([code](https://github.com/shoaibul0926/flappybird-game)) |
+| [▶ Basketball Shooter](https://shoaibul0926.github.io/My-first-game/) ([code](https://github.com/shoaibul0926/My-first-game)) | [▶ Brick Breaker](https://shoaibul0926.github.io/brick-breaker-game/) ([code](https://github.com/shoaibul0926/brick-breaker-game)) | [▶ Block Stacker](https://shoaibul0926.github.io/block-stacker-game/) ([code](https://github.com/shoaibul0926/block-stacker-game)) |
+| [▶ Bubble Pop](https://shoaibul0926.github.io/bubble-pop-game/) ([code](https://github.com/shoaibul0926/bubble-pop-game)) | [▶ Whack-a-Mole](https://shoaibul0926.github.io/whack-a-mole-game/) ([code](https://github.com/shoaibul0926/whack-a-mole-game)) | [▶ Simon Sequence](https://shoaibul0926.github.io/simon-sequence-game/) ([code](https://github.com/shoaibul0926/simon-sequence-game)) |
+| [▶ Road Crosser](https://shoaibul0926.github.io/road-crosser-game/) ([code](https://github.com/shoaibul0926/road-crosser-game)) | [▶ Number Merge (2048-style)](https://shoaibul0926.github.io/number-merge-game/) ([code](https://github.com/shoaibul0926/number-merge-game)) | [▶ Bird Hunt](https://shoaibul0926.github.io/bird-hunt-game/) ([code](https://github.com/shoaibul0926/bird-hunt-game)) |
+| [▶ Fruit Slice](https://shoaibul0926.github.io/fruit-slice-game/) ([code](https://github.com/shoaibul0926/fruit-slice-game)) | | |
 
 </details>
 
 ### 🧮 Also built
 
-- **[Scientific Calculator](https://github.com/shoaibul0926/scientific-calculator)** & **[Casio-style Calculator](https://github.com/shoaibul0926/casio-calculator)** — single-file HTML/CSS/JS calculators covering scientific, programmer/base-N, complex, matrix, equation, and calculus modes
-- **[AI Learning Journey Portfolio](https://github.com/shoaibul0926/ai-learning-journey-portfolio)** — a portfolio site documenting my path into AI/ML
+- **[Scientific Calculator ▶](https://shoaibul0926.github.io/scientific-calculator/)** ([code](https://github.com/shoaibul0926/scientific-calculator)) & **[Casio-style Calculator ▶](https://shoaibul0926.github.io/casio-calculator/)** ([code](https://github.com/shoaibul0926/casio-calculator)) — single-file HTML/CSS/JS calculators covering scientific, programmer/base-N, complex, matrix, equation, and calculus modes
+- **[AI Learning Journey Portfolio ▶](https://shoaibul0926.github.io/ai-learning-journey-portfolio/)** ([code](https://github.com/shoaibul0926/ai-learning-journey-portfolio)) — a portfolio site documenting my path into AI/ML
 
 ---
 

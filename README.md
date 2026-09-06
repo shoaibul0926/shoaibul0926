@@ -1,5 +1,5 @@
 <h1 align="center">Hi, I'm Shoaibul Hoque 👋</h1>
-<p align="center"><b>Full-stack web developer</b> — I build AI-powered apps and browser games, and ship them: real backends, real deployments, real users.</p>
+<p align="center"><b>I design and ship full products</b> — AI apps, backends, browser games — directing AI-assisted development and automation (Claude Code) to go from idea to real, deployed, working software.</p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/shoaibul-hoque-456632252"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
@@ -63,6 +63,8 @@ A single arcade front-end that aggregates **16 independently-built browser games
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white">
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white">
   <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white">
+  <img src="https://img.shields.io/badge/Claude%20Code-D97757?style=flat-square&logo=anthropic&logoColor=white">
+  <img src="https://img.shields.io/badge/AI--Assisted%20Development-6E56CF?style=flat-square">
   <img src="https://img.shields.io/badge/Anthropic%20API-D97757?style=flat-square&logo=anthropic&logoColor=white">
   <img src="https://img.shields.io/badge/OpenAI%20API-412991?style=flat-square&logo=openai&logoColor=white">
   <img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white">

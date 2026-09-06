@@ -72,8 +72,8 @@ A single arcade front-end that aggregates **16 independently-built browser games
 ### 📊 GitHub Stats
 
 <p>
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=shoaibul0926&show_icons=true&theme=default&hide_border=true&count_private=true" alt="GitHub stats">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shoaibul0926&layout=compact&hide_border=true" alt="Top languages">
+  <img src="https://img.shields.io/badge/dynamic/json?url=https://api.github.com/users/shoaibul0926&label=Public%20Repos&query=%24.public_repos&color=2ea44f&style=flat-square">
+  <img src="https://img.shields.io/github/followers/shoaibul0926?label=Followers&style=flat-square&color=0A66C2">
 </p>
 
 ### 📫 Get in touch

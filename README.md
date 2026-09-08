@@ -24,12 +24,20 @@ A full-stack AI assistant, live at **[chat-buddy-production.up.railway.app](http
 Node.js · Express · Anthropic & OpenAI APIs · Voyage AI embeddings · vectra vector store · JWT · bcrypt
 ```
 
-### 🎮 [PixelDeck](https://shoaibul0926.github.io/PixelDeck/) — a game hub, built end-to-end
+### 🎮 Featured build — [PixelDeck](https://github.com/shoaibul0926/PixelDeck)
 
-A single arcade front-end that aggregates **16 independently-built browser games** behind one account system:
+A retro arcade game hub, live at **[shoaibul0926.github.io/PixelDeck](https://shoaibul0926.github.io/PixelDeck/)**. A single front-end that aggregates 16 independently-built, independently-deployed browser games behind one real account system:
 
-- [`pixeldeck-auth`](https://github.com/shoaibul0926/pixeldeck-auth) — a small Node/Express backend giving PixelDeck real username/password accounts and a persistent, server-side login-activity log (bcrypt + JWT, same pattern as Chat Buddy)
-- Each game is its own standalone, independently-deployed repo — snake, Sudoku, a Mario-style platformer, a space shooter, a car racer, and more — all playable directly from the hub
+- 🕹️ 16 playable games — snake, Sudoku, a Mario-style platformer, a space shooter, a car racer, and more — each its own standalone repo, launched live from one hub
+- 🔐 Real user accounts — bcrypt password hashing, JWT auth, persistent server-side login-activity log via [`pixeldeck-auth`](https://github.com/shoaibul0926/pixeldeck-auth) (same auth pattern as Chat Buddy)
+- 🧩 Single-source game registry — one entry per game (slug, title, url, accent color); adding a new game touches nothing else in the codebase
+- 🖥️ Retro CRT-styled UI — animated splash screen, scanline effects, per-game accent glow, login/splash/hub screen flow
+- ⚡ Optimistic auth — returning visitors land straight on the hub from a stored token while it's verified in the background, with a "welcome back" toast showing login history
+- ☁️ Deployed on Railway with a persistent volume, so accounts survive container restarts
+
+```
+HTML5 · Vanilla JS · Node.js · Express · JWT · bcrypt · Railway · GitHub Pages
+```
 
 <details>
 <summary><b>🕹️ See all 16 games</b></summary>

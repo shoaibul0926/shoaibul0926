@@ -1,5 +1,5 @@
 <h1 align="center">Hi, I'm Shoaibul Hoque 👋</h1>
-<p align="center"><b>I design and ship full products</b> — AI apps, backends, browser games — directing AI-assisted development and automation (Claude Code) to go from idea to real, deployed, working software.</p>
+<p align="center"><b>I design and ship full products</b>: AI apps, backends and browser games, directing AI-assisted development and automation (Claude Code) to go from idea to real, deployed, working software.</p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/shoaibul-hoque-456632252"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
@@ -11,28 +11,28 @@
 
 ---
 
-### 🚀 Featured build — [Chat Buddy](https://github.com/shoaibul0926/chat-buddy)
+### 🚀 Featured build: [Chat Buddy](https://github.com/shoaibul0926/chat-buddy)
 
-An AI-assisted chat and document assistant, live at **[shoaibul0926.github.io/chat-buddy](https://shoaibul0926.github.io/chat-buddy/)**. It runs entirely in the browser: no login, no server, and everything you save stays on your own device.
+An AI-assisted chat and document assistant, live at **[shoaibul0926.github.io/chat-buddy](https://shoaibul0926.github.io/chat-buddy/)**.
 
-- 📄 Document Q&A over PDF/DOCX/TXT — text extracted client-side (pdf.js, mammoth) and searched by keyword relevance
+- 📄 Document Q&A over PDF/DOCX/TXT: text extracted client-side (pdf.js, mammoth) and searched by keyword relevance
 - 🕵️ Image intelligence: OCR (Tesseract.js), object detection (TensorFlow.js COCO-SSD), captioning
-- 💬 Multi-conversation chat UX — folders, search, rename/delete, light/dark theme, a personal knowledge base, and an agent-style multi-step task planner
+- 💬 Multi-conversation chat UX: folders, search, rename/delete, light/dark theme, a personal knowledge base, and an agent-style multi-step task planner
 - 💾 Local-first persistence in IndexedDB via an in-browser API layer, so the app is a static site on GitHub Pages
-- 🧰 The repo also keeps a self-hostable Node/Express backend with streaming LLM chat (Anthropic/OpenAI), Voyage AI embeddings + RAG, and image generation, backed by 69 automated tests — these need API keys and a server, so they're off in the hosted demo
+- 🧰 A Node/Express backend with streaming LLM chat (Anthropic/OpenAI), Voyage AI embeddings + RAG, and image generation, backed by 69 automated tests
 
 ```
 Vanilla JS · IndexedDB · pdf.js · Tesseract.js · TensorFlow.js · GitHub Pages / Actions  (optional backend: Node.js · Express)
 ```
 
-### 🎮 Featured build — [PixelDeck](https://github.com/shoaibul0926/PixelDeck)
+### 🎮 Featured build: [PixelDeck](https://github.com/shoaibul0926/PixelDeck)
 
-A retro arcade game hub, live at **[shoaibul0926.github.io/PixelDeck](https://shoaibul0926.github.io/PixelDeck/)** and as a downloadable **[Android app (APK)](https://github.com/shoaibul0926/PixelDeck/releases/download/latest/PixelDeck.apk)**. A single front-end that aggregates 16 independently-built, independently-deployed browser games — open it and play, no login:
+A retro arcade game hub, live at **[shoaibul0926.github.io/PixelDeck](https://shoaibul0926.github.io/PixelDeck/)** and as a downloadable **[Android app (APK)](https://github.com/shoaibul0926/PixelDeck/releases/download/latest/PixelDeck.apk)**. A single front-end that aggregates 16 independently-built, independently-deployed browser games, ready to open and play:
 
-- 🕹️ 16 playable games — snake, Sudoku, a Mario-style platformer, a space shooter, a car racer, and more — each its own standalone repo, launched live from one hub
-- 📱 Android app — the same site wrapped with Capacitor; a GitHub Actions workflow builds the APK and publishes it to a GitHub Release on every push
-- 🧩 Single-source game registry — one entry per game (slug, title, url, accent color); adding a new game touches nothing else in the codebase
-- 🖥️ Retro CRT-styled UI — animated splash screen, scanline effects, per-game accent glow, splash/hub screen flow
+- 🕹️ 16 playable games: snake, Sudoku, a Mario-style platformer, a space shooter, a car racer, and more; each its own standalone repo, launched live from one hub
+- 📱 Android app: the same site wrapped with Capacitor; a GitHub Actions workflow builds the APK and publishes it to a GitHub Release on every push
+- 🧩 Single-source game registry: one entry per game (slug, title, url, accent color); adding a new game touches nothing else in the codebase
+- 🖥️ Retro CRT-styled UI: animated splash screen, scanline effects, per-game accent glow, splash/hub screen flow
 
 ```
 HTML5 · Vanilla JS · Capacitor · GitHub Actions · GitHub Pages
@@ -42,7 +42,7 @@ HTML5 · Vanilla JS · Capacitor · GitHub Actions · GitHub Pages
 <summary><b>🕹️ See all 16 games</b></summary>
 <br>
 
-Each game links to its **live, playable build** — click through and try it, no setup needed.
+Each game links to its **live, playable build**. Click through and try it, no setup needed.
 
 | Game | Game | Game |
 |---|---|---|
@@ -55,19 +55,19 @@ Each game links to its **live, playable build** — click through and try it, no
 
 </details>
 
-### ✅ Featured build — [Today (To-Do List)](https://github.com/shoaibul0926/todo-app)
+### ✅ Featured build: [Today (To-Do List)](https://github.com/shoaibul0926/todo-app)
 
-A daily to-do app built around one "Focus" task, live at **[shoaibul0926.github.io/todo-app](https://shoaibul0926.github.io/todo-app/)** and installable on a phone or desktop like a native app. It runs entirely in the browser: no login, no server, and your tasks stay on your own device, even when you're offline.
+A daily to-do app built around one "Focus" task, live at **[shoaibul0926.github.io/todo-app](https://shoaibul0926.github.io/todo-app/)** and installable on a phone or desktop like a native app. It also works offline.
 
-- ✍️ Task essentials — add tasks with a priority (low / medium / high) and an optional due date, edit a title in place, and tick tasks off with an animated strike-through that draws itself before the task drops to the bottom of the list
-- 🎯 Focus card — pin the one task that matters most to a highlighted card at the top of the page
-- ⏰ Smart due dates — "Due today", "Due tomorrow", and overdue tasks flagged in red
+- ✍️ Task essentials: add tasks with a priority (low / medium / high) and an optional due date, edit a title in place, and tick tasks off with an animated strike-through that draws itself before the task drops to the bottom of the list
+- 🎯 Focus card: pin the one task that matters most to a highlighted card at the top of the page
+- ⏰ Smart due dates: "Due today", "Due tomorrow", and overdue tasks flagged in red
 - 🔎 All / To do / Done filters, a live progress bar, and a running "tasks left" summary
-- ↩️ Undo — deleting a task or clearing all completed tasks shows a toast with an Undo button
+- ↩️ Undo: deleting a task or clearing all completed tasks shows a toast with an Undo button
 - 🌗 Light and dark themes that follow your system, keyboard-accessible controls, reduced-motion support, and a layout that fits from phone to desktop
-- 📲 Installable PWA — web manifest, app icons (including maskable), and a hand-written service worker that precaches the app so it loads offline, with the web fonts cached too
-- 🧪 Clean architecture — the business logic (add, toggle, edit, filter and sort, due dates, undo) is pure TypeScript covered by 48 automated Vitest tests, and all storage sits behind a swappable adapter interface (browser storage today), so a cloud backend could be added later without touching the UI
-- 🚀 CI/CD — a GitHub Actions workflow runs the tests and the production build on every push to `main`, then deploys to GitHub Pages; a failing test blocks the deploy
+- 📲 Installable PWA: web manifest, app icons (including maskable), and a hand-written service worker that precaches the app so it loads offline, with the web fonts cached too
+- 🧪 Clean architecture: the business logic (add, toggle, edit, filter and sort, due dates, undo) is pure TypeScript covered by 48 automated Vitest tests, and all storage sits behind a swappable adapter interface (browser storage today), so a cloud backend could be added later without touching the UI
+- 🚀 CI/CD: a GitHub Actions workflow runs the tests and the production build on every push to `main`, then deploys to GitHub Pages; a failing test blocks the deploy
 
 ```
 React · TypeScript · Vite · Vitest · Service Worker (PWA) · GitHub Actions · GitHub Pages
@@ -77,7 +77,7 @@ React · TypeScript · Vite · Vitest · Service Worker (PWA) · GitHub Actions 
 
 | Project | Live | Code | What it is |
 |---|---|---|---|
-| Scientific Calculator | [▶ Try it](https://shoaibul0926.github.io/scientific-calculator/) | [code](https://github.com/shoaibul0926/scientific-calculator) | Single-file HTML/CSS/JS calculator — scientific, programmer/base-N, complex, matrix, equation & calculus modes |
+| Scientific Calculator | [▶ Try it](https://shoaibul0926.github.io/scientific-calculator/) | [code](https://github.com/shoaibul0926/scientific-calculator) | Single-file HTML/CSS/JS calculator with scientific, programmer/base-N, complex, matrix, equation & calculus modes |
 | Casio-style Calculator | [▶ Try it](https://shoaibul0926.github.io/casio-calculator/) | [code](https://github.com/shoaibul0926/casio-calculator) | Casio FX-991EX-style calculator, same mode coverage as above |
 
 ---
@@ -111,4 +111,4 @@ React · TypeScript · Vite · Vitest · Service Worker (PWA) · GitHub Actions 
 
 ### 📫 Get in touch
 
-**[LinkedIn — Shoaibul Hoque](https://www.linkedin.com/in/shoaibul-hoque-456632252)**
+**[LinkedIn: Shoaibul Hoque](https://www.linkedin.com/in/shoaibul-hoque-456632252)**

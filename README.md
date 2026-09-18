@@ -7,6 +7,7 @@
   <a href="https://shoaibul0926.github.io/PixelDeck/"><img src="https://img.shields.io/badge/Play-PixelDeck-FF5252?style=flat-square&logo=itchdotio&logoColor=white" alt="PixelDeck live"></a>
   <a href="https://github.com/shoaibul0926/PixelDeck/releases/download/latest/PixelDeck.apk"><img src="https://img.shields.io/badge/Download-Android%20APK-3DDC84?style=flat-square&logo=android&logoColor=white" alt="PixelDeck Android APK"></a>
   <a href="https://shoaibul0926.github.io/todo-app/"><img src="https://img.shields.io/badge/Live%20App-Today%20To--Do-FFD84D?style=flat-square&labelColor=1B2340&logo=todoist&logoColor=FFD84D" alt="Today to-do app live"></a>
+  <a href="https://github.com/shoaibul0926/todo-app/releases/download/latest/todo-app.apk"><img src="https://img.shields.io/badge/Download-To--Do%20Android%20APK-3DDC84?style=flat-square&logo=android&logoColor=white" alt="To-Do app Android APK"></a>
 </p>
 
 ---
@@ -67,10 +68,11 @@ A daily to-do app built around one "Focus" task, live at **[shoaibul0926.github.
 - 🌗 Light and dark themes that follow your system, keyboard-accessible controls, reduced-motion support, and a layout that fits from phone to desktop
 - 📲 Installable PWA: web manifest, app icons (including maskable), and a hand-written service worker that precaches the app so it loads offline, with the web fonts cached too
 - 🧪 Clean architecture: the business logic (add, toggle, edit, filter and sort, due dates, undo) is pure TypeScript covered by 48 automated Vitest tests, and all storage sits behind a swappable adapter interface (browser storage today), so a cloud backend could be added later without touching the UI
-- 🚀 CI/CD: a GitHub Actions workflow runs the tests and the production build on every push to `main`, then deploys to GitHub Pages; a failing test blocks the deploy
+- 📱 Android and iPhone: a downloadable **[Android app (APK)](https://github.com/shoaibul0926/todo-app/releases/download/latest/todo-app.apk)** (the same app wrapped with Capacitor, with its own icon and splash screen), and on iPhone or iPad it installs straight from Safari with Add to Home Screen
+- 🚀 CI/CD: a GitHub Actions workflow runs the tests and the production build on every push to `main`, then deploys to GitHub Pages; a second workflow builds the APK and publishes it to a GitHub Release; a failing test blocks the deploy
 
 ```
-React · TypeScript · Vite · Vitest · Service Worker (PWA) · GitHub Actions · GitHub Pages
+React · TypeScript · Vite · Vitest · Service Worker (PWA) · Capacitor · GitHub Actions · GitHub Pages
 ```
 
 ### 🧮 Also built

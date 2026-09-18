@@ -60,7 +60,6 @@ Each game links to its **live, playable build** — click through and try it, no
 |---|---|---|---|
 | Scientific Calculator | [▶ Try it](https://shoaibul0926.github.io/scientific-calculator/) | [code](https://github.com/shoaibul0926/scientific-calculator) | Single-file HTML/CSS/JS calculator — scientific, programmer/base-N, complex, matrix, equation & calculus modes |
 | Casio-style Calculator | [▶ Try it](https://shoaibul0926.github.io/casio-calculator/) | [code](https://github.com/shoaibul0926/casio-calculator) | Casio FX-991EX-style calculator, same mode coverage as above |
-| AI Learning Journey Portfolio | [▶ Try it](https://shoaibul0926.github.io/ai-learning-journey-portfolio/) | [code](https://github.com/shoaibul0926/ai-learning-journey-portfolio) | Portfolio site documenting my path into AI/ML |
 
 ---
 

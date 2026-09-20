@@ -75,6 +75,82 @@ A daily to-do app built around one "Focus" task, live at **[shoaibul0926.github.
 React · TypeScript · Vite · Vitest · Service Worker (PWA) · Capacitor · GitHub Actions · GitHub Pages
 ```
 
+### 🔬 VLSI / RTL design: [4-Bit Ripple Carry Counter](https://github.com/shoaibul0926/ripple-counter-4bit)
+
+A basic hierarchical Verilog design (top block, T flip-flop built from a D flip-flop, and a stimulus testbench), simulated with Icarus Verilog and viewed as waveforms. Run it live in your browser on **[EDA Playground](https://www.edaplayground.com/x/DR8z)**, or read the code in the **[repo](https://github.com/shoaibul0926/ripple-counter-4bit)**.
+
+- 🧱 Hierarchy: `ripple_carry_counter` (top: `q`, `clk`, `reset`) → 4 × `T_FF` → `D_FF` + inverter
+- 🧪 `stimulus` testbench drives the clock and a mid-count reset; the count runs 0 → 15, wraps to 0 and clears on reset
+- 📈 Waveform below: `clk`, `reset`, `q[3:0]` in binary, and every bit as its own 0/1 wave
+
+<p align="center"><img src="https://raw.githubusercontent.com/shoaibul0926/ripple-counter-4bit/main/waveform.png" alt="Ripple counter waveform: clk, q[3:0] in binary, individual bits q[3]..q[0], reset" width="100%"></p>
+
+<details>
+<summary><b>💻 See the design and testbench code</b></summary>
+
+```verilog
+// Top block
+module ripple_carry_counter(q, clk, reset);
+    output [3:0] q;
+    input        clk, reset;
+
+    T_FF tff0(q[0], clk,  reset);
+    T_FF tff1(q[1], q[0], reset);
+    T_FF tff2(q[2], q[1], reset);
+    T_FF tff3(q[3], q[2], reset);
+endmodule
+
+// T flip-flop = D flip-flop + inverter
+module T_FF(q, clk, reset);
+    output q;
+    input  clk, reset;
+    wire   d;
+
+    D_FF dff0(q, d, clk, reset);
+    not  n1(d, q);
+endmodule
+
+// D flip-flop, negative-edge clock, async reset
+module D_FF(q, d, clk, reset);
+    output q;
+    input  d, clk, reset;
+    reg    q;
+
+    always @(posedge reset or negedge clk)
+        if (reset) q = 1'b0;
+        else       q = d;
+endmodule
+
+// Stimulus block (testbench)
+module stimulus;
+    reg        clk, reset;
+    wire [3:0] q;
+
+    ripple_carry_counter r1(q, clk, reset);
+
+    initial clk = 1'b0;
+    always #5 clk = ~clk;
+
+    initial begin
+        reset = 1'b1;
+        #15  reset = 1'b0;
+        #180 reset = 1'b1;
+        #10  reset = 1'b0;
+        #20  $finish;
+    end
+
+    initial $monitor($time, " Output q = %d", q);
+endmodule
+```
+
+Full files (with the waveform dump lines and `run.bat` for Windows): **[ripple-counter-4bit](https://github.com/shoaibul0926/ripple-counter-4bit)**.
+
+</details>
+
+```
+Verilog · Icarus Verilog · GTKWave / EPWave · EDA Playground
+```
+
 ### 🧮 Also built
 
 | Project | Live | Code | What it is |
@@ -97,6 +173,7 @@ React · TypeScript · Vite · Vitest · Service Worker (PWA) · Capacitor · Gi
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white">
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white">
   <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white">
+  <img src="https://img.shields.io/badge/Verilog%20%2F%20VLSI-005C99?style=flat-square">
   <img src="https://img.shields.io/badge/Claude%20Code-D97757?style=flat-square&logo=anthropic&logoColor=white">
   <img src="https://img.shields.io/badge/AI--Assisted%20Development-6E56CF?style=flat-square">
   <img src="https://img.shields.io/badge/Anthropic%20API-D97757?style=flat-square&logo=anthropic&logoColor=white">

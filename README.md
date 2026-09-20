@@ -77,7 +77,7 @@ React · TypeScript · Vite · Vitest · Service Worker (PWA) · Capacitor · Gi
 
 ### 🔬 VLSI / RTL design: [4-Bit Ripple Carry Counter](https://github.com/shoaibul0926/ripple-counter-4bit)
 
-A basic hierarchical Verilog design (top block, T flip-flop built from a D flip-flop, and a stimulus testbench), simulated with Icarus Verilog and viewed as waveforms. Run it live in your browser on **[EDA Playground](https://www.edaplayground.com/x/DR8z)**, or read the code in the **[repo](https://github.com/shoaibul0926/ripple-counter-4bit)**.
+A basic hierarchical Verilog design (top block, T flip-flop built from a D flip-flop, and a stimulus testbench), simulated with Icarus Verilog and viewed as waveforms in GTKWave. Code, testbench and waveform are in the **[repo](https://github.com/shoaibul0926/ripple-counter-4bit)**.
 
 - 🧱 Hierarchy: `ripple_carry_counter` (top: `q`, `clk`, `reset`) → 4 × `T_FF` → `D_FF` + inverter
 - 🧪 `stimulus` testbench drives the clock and a mid-count reset; the count runs 0 → 15, wraps to 0 and clears on reset
@@ -148,7 +148,7 @@ Full files (with the waveform dump lines and `run.bat` for Windows): **[ripple-c
 </details>
 
 ```
-Verilog · Icarus Verilog · GTKWave / EPWave · EDA Playground
+Verilog · Icarus Verilog · GTKWave
 ```
 
 ### 🧮 Also built

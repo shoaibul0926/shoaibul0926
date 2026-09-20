@@ -81,7 +81,7 @@ A basic hierarchical Verilog design (top block, T flip-flop built from a D flip-
 
 - 🧱 Hierarchy: `ripple_carry_counter` (top: `q`, `clk`, `reset`) → 4 × `T_FF` → `D_FF` + inverter
 - 🧪 `stimulus` testbench drives the clock and a mid-count reset; the count runs 0 → 15, wraps to 0 and clears on reset
-- 📈 Waveform below: `clk`, `reset`, `q[3:0]` in binary, and every bit as its own 0/1 wave
+- 📈 Waveform below: `clk`, `reset`, `q[3:0]` as a bus, and every bit as its own 0/1 wave
 
 <p align="center"><img src="https://raw.githubusercontent.com/shoaibul0926/ripple-counter-4bit/main/waveform.png" alt="Ripple counter waveform: clk, q[3:0] in binary, individual bits q[3]..q[0], reset" width="100%"></p>
 

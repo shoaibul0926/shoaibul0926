@@ -1,5 +1,5 @@
 <h1 align="center">Hi, I'm Shoaibul Hoque 👋</h1>
-<p align="center">🧳 <b>Travelling Forward Deployed Engineer @ CoLab</b></p>
+<p align="center">🧳 <b>Travelling Forward Deployed Engineer @ <a href="https://www.colabglobalconsulting.com/">CoLab</a></b></p>
 <p align="center"><b>I design and ship full products</b>: AI apps, backends and browser games, directing AI-assisted development and automation (agentic coding) to go from idea to real, deployed, working software.</p>
 
 <p align="center">
